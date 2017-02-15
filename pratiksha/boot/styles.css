@@ -1,0 +1,114 @@
+
+
+.col-sm-4
+{
+	background-image:url(bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+
+}
+ .col-sm-4 img
+ {
+ 	margin-top:50px;
+ 	margin-left: 340px;
+
+ }
+
+h1
+{
+	text-align: center;
+}
+h2
+{
+	padding-top: 150px;
+	margin-left: 60px;
+}
+#first
+{
+	margin-left:60px;
+}
+.actions
+{
+	margin-left:60px;
+}
+.button {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #7FFFD4;
+  border: none;
+  color: grey;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#one
+{
+	border-bottom:2px solid grey;
+}
+#two
+{
+	border-bottom:2px solid grey;
+
+}
+h3
+{
+	padding-top: 50px;
+	margin-left: 60px;
+}
+.form-group
+{
+	margin-left: 60px;
+}
+.form-horizontals
+{
+	
+	margin-left: 60px;
+}
+#icons
+{
+	display:inline;
+	margin-left: 50px;
+}
+#footer
+{
+	margin-top: 180px;
+	margin-left: 80px;
+	padding-top: 25%;
+
+
+}
+#icons1
+{
+	display:inline;
+}
